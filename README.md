@@ -32,7 +32,7 @@
 
 ### Step 1: Fork Repository
 <div align="center">
-  <a href="https://github.com/Xchristech2/Zenitsu-BOT/fork">
+  <a href="https://github.com/Xchristech2/Zenitsu-Bot/fork">
     <img src="https://img.shields.io/badge/Fork-Repository-blue?style=for-the-badge" alt="Fork Repository"/>
   </a>
 </div>
