@@ -152,7 +152,7 @@ async function handleAntideleteCommand(sock, chatId, message, match) {
                   `• Media cache cleared\n` +
                   `• Real-time monitoring OFF\n\n` +
                   `💡 *Use .antidelete on to re-enable*\n\n` +
-                  `⭐ *Zenitsu-MD Protection Disabled* ⭐`,
+                  `⭐ *Zenitsu-BOT Protection Disabled* ⭐`,
             edit: statusMsg.key
         });
     } else {
@@ -330,7 +330,7 @@ async function handleMessageRevocation(sock, revocationMessage) {
                         `📱 *Number:* ${sender}\n` +
                         `🗑️ *Deleted By:* @${deletedBy.split('@')[0]}\n` +
                         `🕒 *Time:* ${time}\n\n` +
-                        `⚡ *Recovered by Benzo-MD Anti-Delete*`,
+                        `⚡ *Recovered by Zenitsu-BOT Anti-Delete*`,
                 mentions: [deletedBy, sender]
             };
 
