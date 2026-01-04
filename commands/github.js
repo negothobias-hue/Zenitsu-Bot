@@ -20,7 +20,7 @@ async function githubCommand(sock, chatId, message) {
     txt += `🍴 *Forks:* ${json.forks_count}\n`;
     txt += `⭐ *Stars:* ${json.stargazers_count}\n\n`;
     txt += `━━━━━━━━━━━━━━━━━━━━━\n`;
-    txt += `🚀 *POWERED BY ZENITSU-BOT BOT*`;
+    txt += `🚀 *POWERED BY ZENITSU-BOT*`;
 
     // Use the local asset image
     const imgPath = path.join(__dirname, '../assets/bot_image.jpg');
