@@ -51,7 +51,7 @@ async function helpCommand(sock, chatId, message) {
 Version ${settings.version || '1.0.0'} · Active
 
 🔧 *SYSTEM INFO*
-[ ] [ Z E N I T S U - M D  B O T ]
+[ ] [ Z E N I T S U -  B O T ]
 ► Prefix: [ ${settings.prefix || '.'} ]
 ► Owner: ${settings.botOwner || 'Not set!'}
 ► Mode: ${settings.privateMode ? 'private' : 'public'}
@@ -273,7 +273,7 @@ Version ${settings.version || '1.0.0'} · Active
             forwardingScore: 1,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363406476499117@newsletter',
+                newsletterJid: '120363406735242612@newsletter',
                 newsletterName: 'Zanitsu bot',
                 serverMessageId: -1
             }
@@ -316,7 +316,7 @@ Version ${settings.version || '1.0.0'} · Active
                 forwardingScore: 1,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363406476499117@newsletter',
+                    newsletterJid: '120363406735242612@newsletter',
                     newsletterName: 'Zanitsu bot',
                     serverMessageId: -1
                 }
