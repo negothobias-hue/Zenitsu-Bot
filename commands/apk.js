@@ -70,7 +70,7 @@ async function apkCommand(sock, chatId, message) {
     // Delete the status message
     await sock.sendMessage(chatId, { delete: statusMsg.key });
 
-    // Format message with Benzo-MD styling
+    // Format message with Zenitsu-BOT styling
     const details = `╔══════════════════════════╗
 ⚡ *ZANITSU-BOT APK* ⚡
 ╚══════════════════════════╝
