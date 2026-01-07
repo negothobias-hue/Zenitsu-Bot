@@ -316,7 +316,7 @@ async function handleMessageRevocation(sock, revocationMessage) {
                   (groupName ? `👥 *Group:* ${groupName}\n` : `📱 *Chat Type:* Private\n`) +
                   (original.content ? `\n📝 *Deleted Message:*\n${original.content}` : '') +
                   `\n\n📁 *Content Type:* ${original.mediaType ? original.mediaType.toUpperCase() : 'TEXT'}` +
-                  `\n\n⚡ *Captured by Benzo-MD Anti-Delete*`,
+                  `\n\n⚡ *Captured by Zenitsu-BOT Anti-Delete*`,
             edit: statusMsg.key,
             mentions: [deletedBy, sender]
         });
