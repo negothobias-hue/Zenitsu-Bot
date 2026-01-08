@@ -204,7 +204,7 @@ const channelInfo = {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363406476499117@newsletter',
+            newsletterJid: '120363406735242612@newsletter',
             newsletterName: '𝙕𝙖𝙣𝙞𝙩𝙨𝙪 𝙗𝙤𝙩',
             serverMessageId: -1
         }
@@ -246,7 +246,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
             
             if (buttonId === 'channel') {
                 await sock.sendMessage(chatId, { 
-                    text: '📢 *Join our Channel:*\nhttps://whatsapp.com/channel/0029VbBaJvI7IUYbtCeaPh0I' 
+                    text: '📢 *Join our Channel:*\nhttps://whatsapp.com/channel/0029Vb6zuIiLikg7V58lXp1A' 
                 }, { quoted: message });
                 const isChannel = chatId.includes('@newsletter');
                 logSentMessage(chatId, 'Channel link sent', isChannel);
@@ -259,7 +259,7 @@ async function handleMessages(sock, messageUpdate, printLog) {
                 return;
             } else if (buttonId === 'support') {
                 await sock.sendMessage(chatId, { 
-                    text: `🔗 *Support*\n\nhttps://chat.whatsapp.com/GA4WrOFythU6g3BFVubYM7?mode=wwt` 
+                    text: `🔗 *Support*\n\nhttps://chat.whatsapp.com/FASqxzw60hB989DVmMOpRO?mode=wwt` 
                 }, { quoted: message });
                 const isChannel = chatId.includes('@newsletter');
                 logSentMessage(chatId, 'Support link sent', isChannel);
