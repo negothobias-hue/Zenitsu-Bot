@@ -175,7 +175,7 @@ async function tiktokCommand(sock, chatId, message) {
             // Send the video if we got a URL from the APIs
             if (videoUrl) {
                 try {
-                    const caption = `🎬 *BENZO-MD TIKTOK DOWNLOADER* 🎬\n\n` +
+                    const caption = `🎬 *ZENITSU-BOT TIKTOK DOWNLOADER* 🎬\n\n` +
                                   (title ? `📝 *Title:* ${title}\n` : '') +
                                   (username ? `👤 *Author:* ${username}\n` : '') +
                                   `⚡ *Quality:* HD\n` +
