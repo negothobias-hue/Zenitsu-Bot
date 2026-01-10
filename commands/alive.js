@@ -22,7 +22,7 @@ async function aliveCommand(sock, chatId, message) {
         const botUptime = runtime(process.uptime());
         const usedMemory = Math.round(process.memoryUsage().rss / (1024 * 1024));
         const ownerNumber = "2348069675806";
-        const ownerName = "ZENITSU-MD Owner";
+        const ownerName = "ZENITSU-BOT Owner";
         
         // Create VCF contact card
         const vcard = `BEGIN:VCARD
@@ -31,7 +31,7 @@ FN:${ownerName}
 ORG:Zenitsu-BOT;
 TEL;type=CELL;type=VOICE;waid=${ownerNumber}:+${ownerNumber}
 X-WA-BIZ-NAME:${ownerName}
-NOTE:Owner of Zenitsu-MD WhatsApp Bot
+NOTE:Owner of Zenitsu-BOT WhatsApp Bot
 URL:https://whatsapp.com/channel/0029Vb6zuIiLikg7V58lXp1A
 END:VCARD`;
         
@@ -63,7 +63,7 @@ END:VCARD`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363406735242612@newsletter',
-                        newsletterName: 'Zenitsu-MD bot',
+                        newsletterName: 'Zenitsu-BOT',
                         serverMessageId: -1
                     }
                 }
@@ -101,7 +101,7 @@ END:VCARD`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363406735242612@newsletter',
-                        newsletterName: 'Zenitsu-MD bot',
+                        newsletterName: 'Zenitsu-BOT',
                         serverMessageId: -1
                     }
                 }
