@@ -36,8 +36,8 @@ async function stickercropCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363422423159626@newsletter',
-                    newsletterName: 'ZenitsuBot MD',
+                    newsletterJid: '120363406735242612@newsletter',
+                    newsletterName: 'Zenitsu BOT',
                     serverMessageId: -1
                 }
             }
@@ -58,8 +58,8 @@ async function stickercropCommand(sock, chatId, message) {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363422423159626@newsletter',
-                        newsletterName: 'ZenitsuBot MD',
+                        newsletterJid: '120363406735242612@newsletter',
+                        newsletterName: 'Zenitsu Bot',
                         serverMessageId: -1
                     }
                 }
@@ -186,8 +186,8 @@ async function stickercropCommand(sock, chatId, message) {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363422423159626@newsletter',
-                    newsletterName: 'ZenitsuBot MD',
+                    newsletterJid: '120363406735242612@newsletter',
+                    newsletterName: 'Zenitsu BOT',
                     serverMessageId: -1
                 }
             }
