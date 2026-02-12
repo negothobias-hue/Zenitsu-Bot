@@ -216,7 +216,7 @@ async function startZanitsuBot() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363406735242612@newsletter',
+                                newsletterJid: '120363406588763460@newsletter',
                                 newsletterName: 'ZanitsuBot',
                                 serverMessageId: -1
                             }
@@ -343,7 +343,7 @@ async function startZanitsuBot() {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363406735242612@newsletter',
+                            newsletterJid: '120363406588763460@newsletter',
                             newsletterName: 'ZanitsuBot',
                             serverMessageId: -1
                         }
