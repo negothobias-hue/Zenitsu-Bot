@@ -49,10 +49,10 @@ END:VCARD
             text: `✅ *CONTACT SENT SUCCESSFULLY* ✅\n\n` +
                   `👤 *Name:* ${settings.botOwner}\n` +
                   `📱 *Number:* ${settings.ownerNumber}\n` +
-                  `🌐 *Bot Name:* ${global.botname || 'Zenitsu-BOT'}\n\n` +
+                  `🌐 *Bot Name:* ${global.botname || 'Zenitsu-Bot'}\n\n` +
                   `📞 *Contact card has been sent*\n` +
                   `💡 *Tap to save contact*\n\n` +
-                  `⭐ *Zenitsu-MD Support* ⭐`,
+                  `⭐ *Zenitsu-Bot Support* ⭐`,
             edit: statusMsg.key
         });
 
