@@ -192,7 +192,7 @@ async function facebookCommand(sock, chatId, message) {
         });
 
         // Send the video with caption
-        const caption = `📹 *BENZO-MD FACEBOOK DOWNLOADER* 📹\n\n` +
+        const caption = `📹 *ZENITSU-BOT FACEBOOK DOWNLOADER* 📹\n\n` +
                        `📽️ *Title:* ${title}\n` +
                        `🎯 *Quality:* ${quality}\n` +
                        `⏱ *Duration:* ${duration}\n` +
@@ -221,7 +221,7 @@ async function facebookCommand(sock, chatId, message) {
                   `⏱ *Duration:* ${duration}\n` +
                   `📁 *Format:* MP4\n\n` +
                   `🎬 *Video sent successfully!*\n\n` +
-                  `⭐ *Benzo-MD Task Complete* ⭐`,
+                  `⭐ *Zenitsu-Bot Task Complete* ⭐`,
             edit: statusMsg.key
         });
 
