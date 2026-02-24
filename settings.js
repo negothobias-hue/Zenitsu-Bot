@@ -1,8 +1,8 @@
 const settings = {
   'packname': "𝙕𝙖𝙣𝙞𝙩𝙨𝙪 𝙗𝙤𝙩",
-  'author': 'Chris Gaaju',
+  'author': 'Xchristech2',
   'botName': "𝙕𝙖𝙣𝙞𝙩𝙨𝙪 𝙗𝙤𝙩",
-  'botOwner': "Lord Gaaju",
+  'botOwner': "Chris Gaaju",
   'ownerNumber': "2348069675806",
   'giphyApiKey': "qnl7ssQChTdPjsKta2LMaGXz303tq",
   'commandMode': 'public',
